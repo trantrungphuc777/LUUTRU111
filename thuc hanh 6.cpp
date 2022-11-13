@@ -71,7 +71,7 @@ void Nhapsv(SINHVIEN &x)
 	 do
 	 {
 	 	 printf("\nNhap Nam sinh: ");
-	 	 scanf("%d,&x.Namsinh");
+	 	 scanf("%d",&x.Namsinh);
 	 } while(x.Namsinh<1980 || x.Namsinh>2010);
 	 
 	 do
