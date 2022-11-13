@@ -62,7 +62,7 @@ void Nhapsv(SINHVIEN &x)
 	 gets(x.Hotensv);
 	 fflush(stdin);
 	 printf("\nNhap Nganh hoc: ");
-	 gets(x.Hotensv);
+	 gets(x.Nganhhoc);
 	 fflush(stdin);
 	 printf("\nNhap Que quan: ");
 	 gets(x.Quequan);
