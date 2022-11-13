@@ -47,19 +47,15 @@ int main()
 
 void Nhapsv(SINHVIEN &x)
 {
-	fflush(stdin);
-	printf("\nNhap ma SV: ");
-	gets(x.Mssv);
-	
+	 fflush(stdin);
+	 printf("\nNhap ma SV: ");
+	 gets(x.Mssv);
 	 fflush(stdin);
 	 printf("\nNhap ho ten: ");
 	 gets(x.Hotensv);
 	 fflush(stdin);
 	 printf("\nNhap phai: ");
 	 gets(x.Phai);
-	 fflush(stdin);
-	 printf("\nNhap ho ten: ");
-	 gets(x.Hotensv);
 	 fflush(stdin);
 	 printf("\nNhap Nganh hoc: ");
 	 gets(x.Nganhhoc);
