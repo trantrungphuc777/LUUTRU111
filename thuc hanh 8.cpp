@@ -2,8 +2,6 @@
 #include <stdlib.h>
 
 int nhap1c(int *a,int n, int m);
-int nhap1c(int *a,int n, int m);
-int xuat1c(int *a,int n, int m);
 int xuat1c(int *a,int n, int m);
 int sx(int *a,int n,int m);
 int main()
