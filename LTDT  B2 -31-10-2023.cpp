@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Hàm nh?p ma tr?n
+// HÃ m nh?p ma tr?n
 void nhapMaTran(int a[][100], int n) {
     printf("Nhap cac phan tu cua ma tran:\n");
     for (int i = 0; i < n; i++) {
@@ -11,7 +11,7 @@ void nhapMaTran(int a[][100], int n) {
     }
 }
 
-// Hàm in ma tr?n
+// HÃ m in ma tr?n
 void inMaTran(int a[][100], int n) {
     printf("Ma tran vua nhap:\n");
     for (int i = 0; i < n; i++) {
@@ -22,7 +22,7 @@ void inMaTran(int a[][100], int n) {
     }
 }
 
-// Hàm t?m ph?n t? l?n nh?t trên hàng th? x
+// HÃ m t?m ph?n t? l?n nh?t trÃªn hÃ ng th? x
 void timMaxHang(int a[][100], int n, int x) {
     int max = a[x][0];
     for (int j = 1; j < n; j++) {
@@ -33,7 +33,7 @@ void timMaxHang(int a[][100], int n, int x) {
     printf("Phan tu lon nhat tren hang thu %d: %d\n", x, max);
 }
 
-// Hàm t?m ph?n t? nh? nh?t trên c?t th? y
+// HÃ m t?m ph?n t? nh? nh?t trÃªn c?t th? y
 void timMinCot(int a[][100], int n, int y) {
     int min = a[0][y];
     for (int i = 1; i < n; i++) {
@@ -44,7 +44,7 @@ void timMinCot(int a[][100], int n, int y) {
     printf("Phan tu nho nhat tren cot thu %d: %d\n", y, min);
 }
 
-// Hàm tính t?ng các ph?n t? trên hàng k
+// HÃ m tÃ­nh t?ng cÃ¡c ph?n t? trÃªn hÃ ng k
 void tinhTongHang(int a[][100], int n, int k) {
     int tong = 0;
     for (int j = 0; j < n; j++) {
@@ -53,7 +53,7 @@ void tinhTongHang(int a[][100], int n, int k) {
     printf("Tong cac phan tu tren hang %d: %d\n", k, tong);
 }
 
-// Hàm tính t?ng các ph?n t? trên c?t m
+// HÃ m tÃ­nh t?ng cÃ¡c ph?n t? trÃªn c?t m
 void tinhTongCot(int a[][100], int n, int m) {
     int tong = 0;
     for (int i = 0; i < n; i++) {
@@ -62,7 +62,7 @@ void tinhTongCot(int a[][100], int n, int m) {
     printf("Tong cac phan tu tren cot %d: %d\n", m, tong);
 }
 
-// Hàm tính t?ng các ph?n t? có giá tr? ch?n trên ma tr?n
+// HÃ m tÃ­nh t?ng cÃ¡c ph?n t? cÃ³ giÃ¡ tr? ch?n trÃªn ma tr?n
 void tinhTongChan(int a[][100], int n) {
     int tong = 0;
     for (int i = 0; i < n; i++) {
@@ -75,7 +75,7 @@ void tinhTongChan(int a[][100], int n) {
     printf("Tong cac phan tu co gia tri chan: %d\n", tong);
 }
 
-// Hàm ki?m tra ðý?ng chéo có b?ng 0 hay không
+// HÃ m ki?m tra Ã°Ã½?ng chÃ©o cÃ³ b?ng 0 hay khÃ´ng
 int kiemTraDuongCheo(int a[][100], int n) {
     for (int i = 0; i < n; i++) {
         if (a[i][i] != 0) {
@@ -85,7 +85,7 @@ int kiemTraDuongCheo(int a[][100], int n) {
     return 1;
 }
 
-// Hàm ki?m tra các ph?n t? có nh? hõn ho?c b?ng 1 hay không
+// HÃ m ki?m tra cÃ¡c ph?n t? cÃ³ nh? hÃµn ho?c b?ng 1 hay khÃ´ng
 int kiemTraNhoHonMot(int a[][100], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -97,7 +97,7 @@ int kiemTraNhoHonMot(int a[][100], int n) {
     return 1;
 }
 
-// Hàm ki?m tra m?ng có ð?i x?ng qua ðý?ng chéo chính hay không
+// HÃ m ki?m tra m?ng cÃ³ Ã°?i x?ng qua Ã°Ã½?ng chÃ©o chÃ­nh hay khÃ´ng
 int kiemTraDoiXung(int a[][100], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
